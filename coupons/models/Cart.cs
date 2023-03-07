@@ -1,3 +1,5 @@
+namespace Coupons.models;
+
 public class Cart : ItemCollection
 {
     public float Total { get; set; }

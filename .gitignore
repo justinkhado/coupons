@@ -1,4 +1,4 @@
 .vscode
 
-coupons/bin
-coupons/obj
+coupons*/bin
+coupons*/obj

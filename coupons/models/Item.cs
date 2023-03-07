@@ -1,3 +1,7 @@
+using Coupons.models.interfaces;
+
+namespace Coupons.models;
+
 public class Item : IItem
 {
     public string Name { get; private set; }

@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "coupons", "coupons\coupons.csproj", "{B02729CC-C821-467A-A282-88AB8ED5722D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coupons.Tests", "Coupons.Tests\Coupons.Tests.csproj", "{8597A912-71C5-4A8F-8139-449C30163F0C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{B02729CC-C821-467A-A282-88AB8ED5722D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B02729CC-C821-467A-A282-88AB8ED5722D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B02729CC-C821-467A-A282-88AB8ED5722D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8597A912-71C5-4A8F-8139-449C30163F0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8597A912-71C5-4A8F-8139-449C30163F0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8597A912-71C5-4A8F-8139-449C30163F0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8597A912-71C5-4A8F-8139-449C30163F0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

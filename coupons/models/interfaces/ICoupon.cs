@@ -1,3 +1,5 @@
+namespace Coupons.models.interfaces;
+
 public interface ICoupon
 {
     string Name { get; set; }

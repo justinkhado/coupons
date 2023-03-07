@@ -1,3 +1,5 @@
+namespace Coupons.models;
+
 public class Inventory : ItemCollection
 {
     public Inventory() : base() {}

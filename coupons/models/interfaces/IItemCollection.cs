@@ -1,3 +1,7 @@
+using System.Collections.Generic;
+
+namespace Coupons.models.interfaces;
+
 public interface IItemCollection
 {
     Dictionary<string, (float Price, int Quantity)> Items { get; set; }
