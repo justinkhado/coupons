@@ -1,3 +1,5 @@
+using Coupons.models.interfaces;
+
 namespace Coupons.models;
 
 public class Cart : ItemCollection
@@ -16,11 +18,11 @@ public class Cart : ItemCollection
         Total += item.Price * quantity;
     }
 
-    public new void RemoveItem(string item, int quantity = 1)
+    public new void RemoveItem(string itemName, int quantity = 1)
     {
-        float itemPrice = Items[item].Price;
+        float itemPrice = Items[itemName].Price;
 
-        base.RemoveItem(item, quantity);
+        base.RemoveItem(itemName, quantity);
 
         Total -= itemPrice * quantity;
     }

@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Coupons.models;
 
 public class Inventory : ItemCollection

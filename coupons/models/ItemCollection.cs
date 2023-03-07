@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Coupons.models.interfaces;
 
@@ -24,13 +25,13 @@ public class ItemCollection : IItemCollection
         }
     }
 
-    public void RemoveItem(string item, int quantity = 1)
+    public void RemoveItem(string itemName, int quantity = 1)
     {
-        if (!Items.ContainsKey(item) || Items[item].Quantity - quantity < 0)
+        if (!Items.ContainsKey(itemName) || Items[itemName].Quantity - quantity < 0)
         {
             throw new Exception("Can't decrease quantity by more than current quantity.");
         }
         
-        Items[item] = (Items[item].Price, Items[item].Quantity - quantity);
+        Items[itemName] = (Items[itemName].Price, Items[itemName].Quantity - quantity);
     }
 }

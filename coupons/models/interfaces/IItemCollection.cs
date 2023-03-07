@@ -8,5 +8,5 @@ public interface IItemCollection
 
     void AddItem(IItem item, int quantity);
 
-    void RemoveItem(string item, int quantity);
+    void RemoveItem(string itemName, int quantity);
 }
